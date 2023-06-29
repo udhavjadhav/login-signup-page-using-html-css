@@ -1,0 +1,84 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 109, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.signup,
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+  gap: 20px;
+}
+.heading {
+  color: rgb(26, 25, 25);
+}
+.email,
+.pass {
+  width: 450px;
+  padding: 17px;
+  border-radius: 8px;
+  border-color: gray;
+}
+.signup-btn {
+  width: 480px;
+  padding: 15px;
+  background-color: rgb(244, 13, 52);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.or {
+  margin-top: 20px;
+  display: flex;
+}
+hr {
+  width: 180px;
+}
+.logo-main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.logo {
+  width: 35px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+.already-user {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.check {
+  width: 20px;
+  height: 20px;
+}
+.forget {
+  display: flex;
+  justify-content: right;
+  color: gray;
+  text-decoration: none;
+  margin-right: 22px;
+}
